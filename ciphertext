@@ -1,0 +1,2 @@
+#!/bin/bash
+time openssl enc -e -rc2-ofb -iter 1234 -in $1 -out $2

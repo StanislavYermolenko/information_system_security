@@ -1,0 +1,2 @@
+#!/bin/bash
+time openssl rsautl -encrypt -pubin -inkey fd-public.pem -in $1 -out $2
